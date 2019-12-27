@@ -1,1 +1,12 @@
- 
+#include<iostream>
+
+int main(){
+    float x = 1, y = 0;
+    
+    while(x<69){
+        x = x+1;
+        y=y+1/x;
+    }
+    std::cout << y;
+    return 0;
+}
